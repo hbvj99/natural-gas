@@ -13,7 +13,7 @@ var svg = d3.select("#daily_price")
     "translate(" + margin.left + "," + margin.top + ")");
 
 //Read the data
-d3.csv("https://raw.githubusercontent.com/hbvj99/vijaypathak.com.np/master/sample.csv?token=AKJSG3MCXKKCFITFQGU3VZS57UOXC",
+d3.csv("../data/price_daily.csv",
 
   // When reading the csv, I must format variables:
   function (d) {
