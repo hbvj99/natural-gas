@@ -64,7 +64,7 @@ datapackage = '''{
                     {
                         "format": "default",
                         "name": "Price",
-                        "type": "float"
+                        "type": "number"
                     }
                 ],
         "missingValues": [
