@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<title></title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    .axis path,
+    .axis line {
+        fill: none;
+        stroke: black;
+        shape-rendering: crispEdges;
+    }
+
+    .axis text {
+        font-family: sans-serif;
+        font-size: 11px;
+    }
+</style>
+
+<body>
+    <!-- Create a div where the graph will take place -->
+    <div id="daily_price">Yearly Natural Gas prices</div><br>
+    <button><a href="monthly.html">View Monthly price</a></button>
+
+    <!-- Create scripts -->
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="daily_prices.js"></script>
+</body>
+
+</html>
