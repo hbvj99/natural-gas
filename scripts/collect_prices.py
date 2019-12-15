@@ -9,7 +9,7 @@ from datetime import datetime
 plib.Path('../data', '../archieve').mkdir(parents=True, exist_ok=True)
 
 #EIA API (https://www.eia.gov/opendata/register.php)
-KEY = '8227c29aa545b03ce215edf474b6b943'
+KEY = 'YOUR_KEY'
 
 # Natural Gas AQI data types
 daily_dta = 'NG.RNGWHHD.D'      # Daily price
