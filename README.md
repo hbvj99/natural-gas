@@ -18,6 +18,12 @@ Various data types are also <a href="https://www.eia.gov/opendata/qb.php?categor
 ## Requirements
 - D3js for visualization
 - Python libraries used in <a href="https://github.com/hbvj99/natural-gas/tree/master/scripts">scripts</a>, <a href="https://github.com/hbvj99/natural-gas/blob/master/analysis/data.ipynb">data</a>
+- Install packages for Prophet;
+```
+pip install pandas matplotlib numpy cython
+pip install pystan
+pip install fbprophet, run conda install -c conda-forge fbprophet if you use Anaconda 
+```
 
 ## How to run?
 - Execute <a href="https://github.com/hbvj99/natural-gas/blob/master/scripts/collect_prices.py">```collect_prices.py```</a>	to fetch data through API and save CSV document
