@@ -18,7 +18,7 @@ Various data types are also <a href="https://www.eia.gov/opendata/qb.php?categor
 ## Requirements
 - D3js for visualization
 - Python libraries used in <a href="https://github.com/hbvj99/natural-gas/tree/master/scripts">scripts</a>, <a href="https://github.com/hbvj99/natural-gas/blob/master/analysis/data.ipynb">data</a>
-- Install packages for Prophet;
+- Install packages for Facebook <a href="https://facebook.github.io/prophet/">Prophet</a>;
 ```
 pip install pandas matplotlib numpy cython
 pip install pystan
@@ -30,7 +30,6 @@ pip install fbprophet, run conda install -c conda-forge fbprophet if you use Ana
 - Navigate to <a href="https://github.com/hbvj99/natural-gas/blob/master/visualization/daily_prices.js">```visualization```</a> for graph visualization
 - Historical dataset availabe at <a href="https://github.com/hbvj99/natural-gas/tree/master/data">```data```</a>
 - View <a href="https://github.com/hbvj99/natural-gas/blob/master/analysis/data.ipynb">pattern</a> analysis
-- Price Forecast <a href="https://github.com/hbvj99/natural-gas/blob/master/analysis/forecast_year.ipynb">```notebook```</a>using Facebook <a href="https://facebook.github.io/prophet/">Prophet</a>
-
+- Run Prices forecast <a href="https://github.com/hbvj99/natural-gas/blob/master/analysis/forecast_year.ipynb">```notebook```
 ## About data and usages
 Historical Datasets are in the public domain and are not subject to copyright protection, for more info visit offical <a href="https://www.eia.gov/about/copyrights_reuse.php">webpage</a>
