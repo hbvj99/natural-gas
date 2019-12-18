@@ -19,6 +19,9 @@ datapackage = '''{
                         "name": "price",
                         "type": "number"
                     }
+                ],
+                "missingValues": [
+                    ""
                 ]
             }
         },
@@ -40,6 +43,9 @@ datapackage = '''{
                         "name": "price",
                         "type": "number"
                     }
+                ],
+                "missingValues": [
+                    ""
                 ]
             }
         }
