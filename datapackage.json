@@ -19,6 +19,9 @@
                         "name": "price",
                         "type": "number"
                     }
+                ],
+                "missingValues": [
+                    ""
                 ]
             }
         },
@@ -40,6 +43,9 @@
                         "name": "price",
                         "type": "number"
                     }
+                ],
+                "missingValues": [
+                    ""
                 ]
             }
         }
