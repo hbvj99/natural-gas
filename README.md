@@ -4,6 +4,8 @@ A collection and analysis of Henry Hub Natual Gas Spot Price available at <a hre
 
 Demo data visualization is available <a href="https://hbvj99.github.io/natural-gas/visualization/index.html"> here</a> or view Jupyter Notebook <a href="https://github.com/hbvj99/natural-gas/blob/master/analysis/data.ipynb">analysis</a> of time series data.
 
+It uses [Tabular Data Packages](https://datahub.io/docs/data-packages/tabular) for publishing and sharing tabular [data](https://github.com/hbvj99/natural-gas/tree/master/data).
+
 ## How it works?
 - Fetch open data API available at https://www.eia.gov/opendata/
 - Download, Format Historical Dataset
